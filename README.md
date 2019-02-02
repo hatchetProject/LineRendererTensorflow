@@ -1,7 +1,5 @@
-## Computer Architecture Projects
+## Line Renderer --- Tensorflow
 
-This is a summary of the EI338 course projects. The topics include writing a shell, implmenting producer-consumer algorithm, and various others. The specific topics can be found on http://www.cs.sjtu.edu.cn/~wuct/cse/
+This is line renderer project, intended to be built into the Tensorflow kernel. Bresenham algorithm is used, since the rendering is done in 2-D space. C++ is the language supported by Tensorflow kernel, the code can be found in the **kernels** file.
 
-System requirement: Ubuntu14.04 kernel, basic C compiler.
-
-P.S. Thanks to CSDN and Github.
+However, this project is not recommended to be used... The algorithm may cause memory explosion. 
